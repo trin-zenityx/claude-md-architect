@@ -1,10 +1,27 @@
-# claude-md-architect
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/zenityx-primary-on-dark.png">
+    <img alt="ZenityX" src="assets/brand/zenityx-primary.png" width="360">
+  </picture>
+</p>
+
+<h1 align="center">claude-md-architect</h1>
+
+<p align="center">
+  <em>A Claude Code skill from <a href="https://zenityxai.com">ZenityX</a> — Thailand's hands-on AI institute</em><br/>
+  <strong>จับมือทำจริง ใช้ได้จริง · Hands-on AI. Real results.</strong>
+</p>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://code.claude.com"><img src="https://img.shields.io/badge/Claude%20Code-Skill-d97757" alt="Claude Code Skill"></a>
+  <img src="https://img.shields.io/badge/Docs-Thai%20%2B%20English-blue" alt="Docs: Thai + English">
+  <a href="https://zenityxai.com"><img src="https://img.shields.io/badge/Made%20by-ZenityX-FF0000?labelColor=000000" alt="Made by ZenityX"></a>
+</p>
+
+---
 
 > A Claude Code skill that designs, audits, and extracts **CLAUDE.md** — the highest-leverage prompt in any Claude Code project. Plus a full curriculum on the principles in this README.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-d97757)](https://code.claude.com)
-[![Language](https://img.shields.io/badge/Docs-Thai%20%2B%20English-blue)](#)
 
 **This README is the curriculum.** The skill is the doer. Read this if you want to *understand* CLAUDE.md; install the skill if you want Claude to *do* CLAUDE.md work for you. Both, ideally.
 
@@ -697,4 +714,77 @@ Built something cool with this skill? PRs welcome — especially:
 
 ---
 
-*Built with 🧡 in Bangkok by [ZenityX](https://zenityx.com). If this skill helps you, share it with a teammate.*
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/zenityx-mono-white.png">
+    <img alt="ZenityX" src="assets/brand/zenityx-mono-black.png" width="220">
+  </picture>
+</p>
+
+<h2 align="center">About ZenityX</h2>
+
+<p align="center">
+  <strong>ศูนย์การเรียนรู้ด้าน AI ของไทย</strong> · Thailand's hands-on AI institute<br/>
+  <em>จับมือทำจริง ใช้ได้จริง · Hands-on AI. Real results.</em>
+</p>
+
+---
+
+### Why we built this skill
+
+ZenityX สอน AI แบบจับมือทำทุกขั้นตอน — เราเห็นนักเรียนเสียเวลาเขียน CLAUDE.md ที่ Claude ไม่ตามกฎ เพราะ pattern ที่ทำให้ context file ดี vs. แย่ ไม่ได้ถูก document ไว้ที่เดียว เราเลย synthesize งานวิจัยจาก Anthropic, HumanLayer, Vercel, Arize, และ ETH Zurich แล้ว package เป็น skill นี้ให้ใช้ฟรีและสอนต่อได้ทันที
+
+> *ZenityX teaches AI hands-on, step by step. We watched students burn hours on CLAUDE.md files that Claude ignored — because the patterns that separate good context files from bad ones aren't documented in one place. So we synthesized the research from Anthropic, HumanLayer, Vercel, Arize, and ETH Zurich into a skill anyone can install, use free, and teach from immediately.*
+
+### Brand Formula
+
+> **Practical AI × Human Guidance × Creative Empowerment**
+>
+> *AI ที่ใช้ได้จริง × คนพาไปถึงจริง × ปลดล็อกความคิดสร้างสรรค์*
+
+### Brand colors used in this project
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/-%23FF0000-FF0000?style=for-the-badge&label=Primary" alt="ZenityX Red #FF0000"><br/><sub><code>#FF0000</code><br/>ZenityX Red</sub></td>
+    <td align="center"><img src="https://img.shields.io/badge/-%23CC0000-CC0000?style=for-the-badge&label=Mid" alt="Cinnabar Mid #CC0000"><br/><sub><code>#CC0000</code><br/>Cinnabar Mid</sub></td>
+    <td align="center"><img src="https://img.shields.io/badge/-%23990000-990000?style=for-the-badge&label=Deep" alt="Cinnabar Deep #990000"><br/><sub><code>#990000</code><br/>Cinnabar Deep</sub></td>
+    <td align="center"><img src="https://img.shields.io/badge/-%23000000-000000?style=for-the-badge&label=Black" alt="ZenityX Black"><br/><sub><code>#000000</code><br/>ZenityX Black</sub></td>
+  </tr>
+</table>
+
+### Connect with us
+
+| | |
+|---|---|
+| 🌐 **Website** | [zenityxai.com](https://zenityxai.com) |
+| 📘 **Facebook** | [@zenityXAiStudio](https://www.facebook.com/zenityXAiStudio) |
+| 📸 **Instagram** | [@zenityx.th](https://instagram.com/zenityx.th) |
+| 🎥 **YouTube** | [@ZenityXAIStudio](https://youtube.com/@ZenityXAIStudio) |
+| 🎵 **TikTok** | [@zenityxai](https://tiktok.com/@zenityxai) |
+| 💬 **LINE OA** | `@zenityx` |
+| 📧 **Email** | admin@zenityxai.com |
+| 📞 **Phone** | 062-262-9644 |
+| 🕘 **Hours** | เปิดทุกวัน 9:00–18:00 น. (open daily) |
+
+### Want hands-on AI training in Thai?
+
+Online via AnyDesk · Onsite at our Bangkok institute · In-house for organizations
+
+ZenityX สอนทั้ง **Creative AI** (ภาพ/วิดีโอ/เสียง) และ **Business AI** (ทำงานเร็วขึ้น/ลูกค้าเข้า) — เรียนจบแล้วต้องใช้ได้จริง ไม่ใช่แค่รู้ว่ามี
+
+→ [zenityxai.com](https://zenityxai.com)
+
+---
+
+<p align="center">
+  <sub>
+    <strong>บริษัท เซนนิตี้เอ็กซ์ จำกัด</strong> · ZenityX Co., Ltd. · Tax ID 0205568044595<br/>
+    171/2 ซอยลาดพร้าว 53 (โชคชัย 4) แขวงสะพานสอง เขตวังทองหลาง กรุงเทพมหานคร 10310<br/>
+    <em>171/2 Soi Lat Phrao 53, Saphan Song, Wang Thonglang, Bangkok 10310, Thailand</em>
+  </sub>
+</p>
+
+<p align="center">
+  <sub>Built with 🧡 in Bangkok · If this skill helps you, share it with a teammate.</sub>
+</p>
