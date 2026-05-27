@@ -204,7 +204,7 @@ git commit -m "Refactor CLAUDE.md: 247 → 64 lines, remove anti-patterns"
 
 ### Variation: Audit Without Permission to Change
 
-User might want a diagnosis but not authorize changes. Stop after Phase 3. Provide written diagnostic report with recommendations. Note: this is also good for teaching — `teach` mode borrows this output format.
+User might want a diagnosis but not authorize changes. Stop after Phase 3. Provide written diagnostic report with recommendations.
 
 ### Variation: Multi-File System Audit
 

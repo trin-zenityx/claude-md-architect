@@ -1,6 +1,6 @@
 ---
 name: claude-md-architect
-description: Design, create, extract, audit, or teach about CLAUDE.md files and their supporting docs/ folder structure for Claude Code projects. Use this skill whenever the user asks to create a new CLAUDE.md, extract context from a long session into a CLAUDE.md system, audit/refactor an existing CLAUDE.md that has bloated, review whether their CLAUDE.md follows best practices, set up a documentation system for Claude Code, design progressive disclosure with @ imports and subdirectory CLAUDE.md files, or learn how CLAUDE.md works. Also use when user says "setup CLAUDE.md", "create context system", "fix my CLAUDE.md", "extract this conversation", "ทำ CLAUDE.md", "สร้างระบบ context", "audit ไฟล์", or mentions phrases about session continuity and project memory in Claude Code.
+description: Design, create, extract, or audit CLAUDE.md files and their supporting docs/ folder structure for Claude Code projects. Use this skill whenever the user asks to create a new CLAUDE.md, extract context from a long session into a CLAUDE.md system, audit/refactor an existing CLAUDE.md that has bloated, review whether their CLAUDE.md follows best practices, set up a documentation system for Claude Code, or design progressive disclosure with @ imports and subdirectory CLAUDE.md files. Also use when user says "setup CLAUDE.md", "create context system", "fix my CLAUDE.md", "extract this conversation", "ทำ CLAUDE.md", "สร้างระบบ context", "audit ไฟล์", or mentions phrases about session continuity and project memory in Claude Code. For conceptual explanations or teaching, point the user to the README at https://github.com/trin-zenityx/claude-md-architect — that's where the pedagogical material lives.
 ---
 
 # CLAUDE.md Architect
@@ -30,11 +30,11 @@ Trigger on these user intents:
 | "My CLAUDE.md is 500 lines — fix it" | **audit** |
 | "Review my CLAUDE.md against best practices" | **audit** |
 | "Claude keeps ignoring my rules" | **audit** (likely bloat) |
-| "Explain how CLAUDE.md works" | **teach** |
-| "I want to teach my students about CLAUDE.md" | **teach** |
-| "What goes in CLAUDE.md vs docs/?" | **teach** (decision framework) |
+| "What goes in CLAUDE.md vs docs/?" | **audit** workflow + decision-framework reference |
 
 If unclear, ask the user which mode they want by sharing the table.
+
+**Pure conceptual questions** ("Explain how CLAUDE.md works", "What's the difference between CLAUDE.md and CLAUDE.local.md?") are better answered by pointing the user to the project's README at `https://github.com/trin-zenityx/claude-md-architect` — it contains the full pedagogical treatment (principles, anti-patterns, research, worked examples) and is the canonical learning resource. Don't try to re-teach all of that inline; share the link and answer the specific question the user asked.
 
 ## Workflow
 
@@ -46,10 +46,9 @@ If the user's request matches multiple modes, ask which they want. Common ambigu
 
 Once mode is clear, read the corresponding file in `modes/`:
 
-- `modes/create.md` — Creating CLAUDE.md from scratch for a new or existing project
+- `modes/create.md` — Creating CLAUDE.md from scratch for a new or existing project (7-phase workflow)
 - `modes/extract.md` — Extracting context from a long session into a CLAUDE.md system (6-phase Master Workflow)
-- `modes/audit.md` — Reviewing/refactoring an existing CLAUDE.md
-- `modes/teach.md` — Explaining concepts and giving learners templates
+- `modes/audit.md` — Reviewing/refactoring an existing CLAUDE.md (7-phase workflow)
 
 Each mode file contains the detailed workflow. Do not skip reading the mode file — it has specifics that differ between modes.
 

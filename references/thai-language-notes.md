@@ -1,6 +1,6 @@
 # Thai Language Notes
 
-Considerations for using CLAUDE.md with Thai-language users, mixed Thai/English content, and teaching Thai students.
+Considerations for using CLAUDE.md with Thai-language users and authoring mixed Thai/English content.
 
 ## Known CLI Bugs (as of early 2026)
 
@@ -92,90 +92,6 @@ Example:
 ```
 
 HTML comments are stripped by Claude but visible to Thai team members reading the file.
-
-## Teaching Thai Students
-
-When teaching this material to Thai students:
-
-### Pronunciation Notes
-
-First mention of key terms — give Thai-friendly pronunciation:
-
-- CLAUDE.md = "คลอด เอ็ม ดี" or "คลอด ด๊อท เอ็ม ดี"
-- Token = "โทเค็น"
-- Context = "คอนเท็กซ์"
-- Skill = "สกิล"
-- Prompt = "พรอมพ์"
-
-### Terms to Keep in English
-
-Always teach these in English (don't translate):
-- CLAUDE.md, SKILL.md (file names)
-- Token, context, attention
-- Pruning test
-- Progressive disclosure
-- Anti-patterns
-- Bash, terminal, CLI
-- Worktree, branch, commit
-- @import, slash commands
-
-Students will encounter these terms in all documentation and reference material — translating creates confusion.
-
-### Terms to Translate
-
-Concepts that benefit from Thai:
-- "Memory" → "ความจำ" or just keep as "memory"
-- "Persistence" → "การคงสภาพ"
-- "Stale" → "เก่า/ล้าสมัย"
-- "Bloat" → "อ้วน/บวม" (informal works well)
-- "Refactor" → "ปรับโครงสร้าง"
-- "Best practice" → "แนวปฏิบัติที่ดี" or keep English
-
-### Common Confusions to Address
-
-| Confusion | Clarification |
-|---|---|
-| "CLAUDE.md กับ CLAUDE.local.md ต่างกันยังไง" | CLAUDE.md = shared (commit), CLAUDE.local.md = personal (gitignore) |
-| "MEMORY.md คืออะไร" | Claude เขียนเอง อัตโนมัติ ต่างจาก CLAUDE.md ที่คนเขียน |
-| "ทำไมไม่ใช่ system prompt" | จริงๆ ถูกส่งเป็น user message แต่ทำงานคล้าย system prompt |
-| "Token คือตัวอักษรใช่ไหม" | คล้ายๆ ตัวอักษร แต่อังกฤษ 1 token ≈ 4 chars ไทย 1 token ≈ 1–2 chars |
-| "ทำไมไม่ใส่ทุกอย่างใน CLAUDE.md" | ยิ่งใส่เยอะ Claude ยิ่งไม่ตาม ใส่แค่ที่จำเป็น |
-
-### Suggested Workshop Structure (90 min)
-
-```
-0:00–0:10  Introduction
-            - CLAUDE.md คืออะไร (concept)
-            - ทำไมต้องเรียน (relevance)
-
-0:10–0:25  Layer 1: How it works
-            - File location
-            - Auto-loading mechanism
-            - Demo: เปิด session ใหม่ → Claude อ่าน CLAUDE.md อัตโนมัติ
-
-0:25–0:40  Layer 2: Why it matters (attention budget)
-            - Token cost
-            - Attention degradation (gradient, not a cliff — show IFScale data)
-            - The pruning test (สำคัญที่สุด)
-            - แบบฝึก: ดูตัวอย่าง 10 บรรทัด เลือกที่ควรเก็บ
-
-0:40–0:55  Layer 3: Anatomy
-            - Why/What/How structure
-            - Template walkthrough
-            - แบบฝึก: เขียน CLAUDE.md 30 บรรทัดสำหรับ project ของตัวเอง
-
-0:55–1:10  Layer 4: Anti-patterns
-            - Top 5 anti-patterns พร้อมตัวอย่าง bad → good
-            - Audit ตัวอย่าง bloated CLAUDE.md ด้วยกัน
-
-1:10–1:25  Hands-on
-            - นักเรียนเขียน CLAUDE.md สำหรับ project จริง
-            - Pair review
-
-1:25–1:30  Closing
-            - Resources
-            - Next steps
-```
 
 ## Translating Master Prompts to Thai
 

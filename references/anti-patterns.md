@@ -4,7 +4,6 @@ The 10 documented anti-patterns in CLAUDE.md design, with examples and fixes.
 
 Use this reference when:
 - Auditing an existing CLAUDE.md
-- Teaching learners what NOT to do
 - Explaining to a user why something they want to add shouldn't go in
 
 ## 1. The Bloated Catch-All

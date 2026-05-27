@@ -2,10 +2,10 @@
 
 Real-world CLAUDE.md examples with annotations explaining why they work. Use these when:
 
-- Teaching learners (show concrete patterns, not just principles)
 - User asks "what does a good CLAUDE.md look like?"
 - Demonstrating progressive disclosure or sizing
 - Comparing patterns across project types
+- Picking the closest example to adapt for a new project (after picking a starting template)
 
 ## Index
 
@@ -29,4 +29,4 @@ Notice across all examples:
 4. **Gotchas are concrete** — real incidents, not "watch out for bugs"
 5. **Pointers, not content** — long detail moves to docs/
 
-When using examples in teaching, walk through each line and ask: "Does this pass the pruning test?" Build intuition through repetition.
+When showing these to a user, walk through each line and ask: "Does this pass the pruning test?" That repetition is how intuition gets built.
