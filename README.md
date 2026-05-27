@@ -414,19 +414,6 @@ claude-md-architect/
 
 ---
 
-## หมายเหตุสำหรับผู้ใช้ภาษาไทย
-
-มี **2 CLI bugs ที่ confirmed** กับ Claude Code v2.1.20:
-
-- 🔴 [Issue #21149](https://github.com/anthropics/claude-code/issues/21149) — *output* bug: Claude generate Thai ที่มี sara aa (า) ไม่ได้ critical, open อยู่
-- 🟡 [Issue #20932](https://github.com/anthropics/claude-code/issues/20932) — *input* bug: combining vowels แสดงผิด ตอน type ใน interactive mode (closed as duplicate)
-
-**Workaround:** ใช้ Claude Code Desktop app แทน CLI สำหรับงาน Thai content (file I/O fine ทั้งคู่ — bug แค่ terminal rendering)
-
-แนะนำ pattern: **English structure + Thai content** สำหรับ CLAUDE.md ของโปรเจกต์ไทย ตัวอย่างใน [`references/thai-language-notes.md`](references/thai-language-notes.md)
-
----
-
 ## License
 
 MIT — ใช้ได้อิสระ ทั้งส่วนตัว/สอน/commercial/แจกจ่าย
@@ -682,19 +669,6 @@ This README is designed to be a self-contained course. If you're running a works
 
 ---
 
-## Notes for Thai users
-
-Two confirmed CLI bugs in Claude Code v2.1.20:
-
-- 🔴 [Issue #21149](https://github.com/anthropics/claude-code/issues/21149) — *output* bug: Claude can't generate Thai containing sara aa (า). Critical, still open.
-- 🟡 [Issue #20932](https://github.com/anthropics/claude-code/issues/20932) — *input* bug: Thai combining vowels render incorrectly when typing in interactive mode (closed as duplicate).
-
-**Workaround:** Use Claude Code Desktop app instead of CLI for Thai content. File I/O works fine in both — bug is terminal rendering only.
-
-Recommended pattern: **English structure + Thai content** for Thai-project CLAUDE.md. Examples in [`references/thai-language-notes.md`](references/thai-language-notes.md).
-
----
-
 ## License
 
 MIT — free for any use: personal, teaching, commercial, redistribution.
@@ -735,23 +709,6 @@ Built something cool with this skill? PRs welcome — especially:
 ZenityX สอน AI แบบจับมือทำทุกขั้นตอน — เราเห็นนักเรียนเสียเวลาเขียน CLAUDE.md ที่ Claude ไม่ตามกฎ เพราะ pattern ที่ทำให้ context file ดี vs. แย่ ไม่ได้ถูก document ไว้ที่เดียว เราเลย synthesize งานวิจัยจาก Anthropic, HumanLayer, Vercel, Arize, และ ETH Zurich แล้ว package เป็น skill นี้ให้ใช้ฟรีและสอนต่อได้ทันที
 
 > *ZenityX teaches AI hands-on, step by step. We watched students burn hours on CLAUDE.md files that Claude ignored — because the patterns that separate good context files from bad ones aren't documented in one place. So we synthesized the research from Anthropic, HumanLayer, Vercel, Arize, and ETH Zurich into a skill anyone can install, use free, and teach from immediately.*
-
-### Brand Formula
-
-> **Practical AI × Human Guidance × Creative Empowerment**
->
-> *AI ที่ใช้ได้จริง × คนพาไปถึงจริง × ปลดล็อกความคิดสร้างสรรค์*
-
-### Brand colors used in this project
-
-<table align="center">
-  <tr>
-    <td align="center"><img src="https://img.shields.io/badge/-%23FF0000-FF0000?style=for-the-badge&label=Primary" alt="ZenityX Red #FF0000"><br/><sub><code>#FF0000</code><br/>ZenityX Red</sub></td>
-    <td align="center"><img src="https://img.shields.io/badge/-%23CC0000-CC0000?style=for-the-badge&label=Mid" alt="Cinnabar Mid #CC0000"><br/><sub><code>#CC0000</code><br/>Cinnabar Mid</sub></td>
-    <td align="center"><img src="https://img.shields.io/badge/-%23990000-990000?style=for-the-badge&label=Deep" alt="Cinnabar Deep #990000"><br/><sub><code>#990000</code><br/>Cinnabar Deep</sub></td>
-    <td align="center"><img src="https://img.shields.io/badge/-%23000000-000000?style=for-the-badge&label=Black" alt="ZenityX Black"><br/><sub><code>#000000</code><br/>ZenityX Black</sub></td>
-  </tr>
-</table>
 
 ### Connect with us
 
